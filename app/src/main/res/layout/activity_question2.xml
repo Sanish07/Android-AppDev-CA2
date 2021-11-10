@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9AFFC107"
+    android:paddingTop="15sp"
+    tools:context=".Question2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:textColor="#E10E0E"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text="@string/q2_head"
+        android:id="@+id/q2Head"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q2Head"
+        android:layout_marginTop="20sp"
+        android:hint="Sample EditText"
+        android:textColor="#E10E0E"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/q2edTxt"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="20sp"
+        android:text="Sample Button"
+        android:textColor="#E10E0E"
+        android:layout_below="@+id/q2edTxt"
+        android:id="@+id/q2Btn"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:layout_marginTop="20sp"
+        android:textColor="#E10E0E"
+        android:layout_below="@+id/q2Btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/checkBox"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/checkBox"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/q2Gen">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_marginRight="10dp"
+            android:textColor="#E10E0E"
+            android:id="@+id/maleGen" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="#E10E0E"
+            android:layout_marginRight="10dp"
+            android:id="@+id/femaGen" />
+
+    </RadioGroup>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CA2 Assignment</string>
+    <string name="q1_head"> Microsoft Teams </string>
+    <string name="q2_head"> Question no. 2 </string>
+    <string name="teams_text"> Get started with your work, school or personal Micrsoft account </string>
+</resources>
